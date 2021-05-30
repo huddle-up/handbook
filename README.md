@@ -35,3 +35,30 @@ Things to keep in mind when translating:
 1. Docs translations must be in a `current` folder to work
 2. To extract the translation strings for a language use the following command `yarn write-translations --locale LOCALE_TO_EXTRACT`
 3. To run the site locally in a specific language, use `yarn start --locale LOCALE_TO_RUN`
+
+
+## Deployment
+
+To deploy a new version to Github Pages, the `deploy` script can be used.
+
+### Linux and Mac
+
+```bash
+GIT_USER=<GITHUB_USERNAME> yarn deploy
+```
+
+### Windows
+
+Using DOS:
+
+```cmd
+cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy"
+```
+
+Using Powershell:
+
+```ps
+cmd /C 'set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy'
+```
+
+For further information refer to the Docusaurus [documentation](https://docusaurus.io/docs/deployment).
