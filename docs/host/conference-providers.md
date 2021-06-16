@@ -8,7 +8,7 @@ The video conference functionality of _HuddleUp_ is implemented through the inte
 
 ## Jitsi Meet
 
-When using Jitsi Meet there are two options: Using the public instance (located at [meet.jit.si](https://meet.jit.si)), or hosting an instance yourself. While using the public instance will not cause you any additional costs, it also has certain restrictions.
+When using Jitsi Meet there are two options: Using the public instance (located at [meet.jit.si](https://meet.jit.si)), or [hosting an instance yourself](https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-start). While using the public instance will not cause you any additional costs, it also has certain restrictions.
 
 Features not supported by the public instance:
 
