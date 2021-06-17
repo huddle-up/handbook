@@ -25,7 +25,7 @@ _HuddleUp_ can support multiple languages. You can configure which language shou
 - English (`en`)
 - Deutsch (`de`)
 
-### Predefined Tags
+## Predefined Tags
 
 To give users guidance on topics, you can configure _HuddleUp_ to create a set of predefined tags. These tags can be defined in a `tags.json` file in the `config/api` folder. On startup, _HuddleUp_ will create any tag that is defined in this file. There is an example file located there which you can copy, or you can create a new file. It should follow the following structure:
 
