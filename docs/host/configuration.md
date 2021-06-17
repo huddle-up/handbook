@@ -16,7 +16,7 @@ See section [Conference Providers](conference-providers.md)
 
 ### Identity provider
 
-_HuddleUp_ supports any service that supports [OpenID Connect](https://openid.net/connect/) (OIDC). A commonly used provider is [Google](https://developers.google.com/identity/protocols/oauth2/openid-connect). If you want more control, you can use a service like [Auth0](https://auth0.com/authentication) which offers a generous offer, which should be enough for the expected user count of a _HuddleUp_ installation.
+_HuddleUp_ supports any service that supports [OpenID Connect](https://openid.net/connect/) (OIDC). A commonly used provider is [Google](https://developers.google.com/identity/protocols/oauth2/openid-connect). If you want more control, you can use a service like [Auth0](https://auth0.com/authentication) which provides a free offer that should be enough for the expected user count of a _HuddleUp_ installation.
 
 ## Translations
 
@@ -24,6 +24,20 @@ _HuddleUp_ can support multiple languages. You can configure which language shou
 
 - English (`en`)
 - Deutsch (`de`)
+
+### Predefined Tags
+
+To give users guidance on topics, you can configure _HuddleUp_ to create a set of predefined tags. These tags can be defined in a `tags.json` file in the `config/api` folder. On startup, _HuddleUp_ will create any tag that is defined in this file. There is an example file located there which you can copy, or you can create a new file. It should follow the following structure:
+
+```json title="config/api/tags.json"
+{
+  "tags": [
+    "Your tag #1",
+    "Another tag",
+    // ...
+  ]
+}
+```
 
 ## Reference
 
