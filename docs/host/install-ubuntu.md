@@ -235,6 +235,14 @@ pm2 start pm2.config.yaml
 
 You can check for the status of the process with `pm2 status` and the `huddle-up/logs` logs folder for errors.
 
+To make sure that PM2 starts _HuddleUp_ on a server reboot, we'll add it to the startup processes. Run the following command and copy the output.
+
+```bash
+pm2 startup
+```
+
+Run the output **as root** and the automatic startup should be registered.
+
 ## Setup Nginx
 
 First, if you're still in the `huddleup` user session, exit it.
